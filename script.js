@@ -8,7 +8,7 @@ fetch('.')
     const links = html.querySelectorAll('a');
 
     links.forEach(link => {
-      if (link.href.endsWith('.html') || link.href.endsWith('.css') || link.href.endsWith('.js')) {
+      if (! link.href.endsWith('.html') || ! link.href.endsWith('.css') || ! link.href.endsWith('.js')) {
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.href = link.href;
