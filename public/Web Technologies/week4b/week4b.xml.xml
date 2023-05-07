@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BOOKSTORE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\VAIBHAVI\Pictures\Saved Pictures\4.xsd">
+  <BOOK>
+    <BOOKID>abc</BOOKID>
+    <AUTHOR>abc</AUTHOR>
+    <ISBN>abc</ISBN>
+    <publisher>abc</publisher>
+    <edition>1</edition>
+    <price>1</price>
+  </BOOK>
+  <BOOK>
+    <BOOKID>abc</BOOKID>
+    <AUTHOR>abc</AUTHOR>
+    <ISBN>abc</ISBN>
+    <publisher>abc</publisher>
+    <edition>1</edition>
+    <price>1</price>
+  </BOOK>
+</BOOKSTORE>

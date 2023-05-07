@@ -1,0 +1,18 @@
+<web-app>
+	<servlet>
+		<servlet-name>SecondServlet</servlet-name>
+		<servlet-class>SecondServlet</servlet-class>
+		<init-param>  
+			<param-name>username</param-name>  
+			<param-value>admin</param-value>  
+		</init-param>  
+		<init-param>  
+			<param-name>password</param-name>  
+			<param-value>123456</param-value>  
+		</init-param>  
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SecondServlet</servlet-name>
+		<url-pattern>/SecondServlet</url-pattern >
+	</servlet-mapping>
+</web-app>

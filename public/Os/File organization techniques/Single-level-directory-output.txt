@@ -1,0 +1,16 @@
+Single level directory
+Output:
+
+Enter the directory name:sss
+Enter the number of files:3
+Enter file name to be created:aaa
+Do you want to enter another file(yes - 1 or no - 0):1
+Enter file name to be created:bbb
+Do you want to enter another file(yes - 1 or no - 0):1
+Enter file name to be created:ccc
+Do you want to enter another file(yes - 1 or no - 0):0
+Directory name is:sss
+Files names are:
+aaa
+bbb
+ccc
