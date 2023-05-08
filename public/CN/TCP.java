@@ -1,9 +1,10 @@
-//Program:
 // TCPserver1.java
 import java.net.*; 
 import java.io.*; 
-public class TCPserver1 {
-	public static void main(String arg[]) {
+public class TCPserver1 
+      {
+	public static void main(String arg[]) 
+                {
 		ServerSocket s=null; 
 		String line; 
 		DataInputStream is=null,is1=null; 
@@ -69,6 +70,20 @@ public class TCPclient1 {
 			System.out.println("Socket Closed!Message Passing is over"); 
 		}
 	}
-}	
+}
 
+/**
+OUTPUT:
+SERVER
+C:\>javac TCPserver1.java 
+Note: TCPserver1.java uses or overrides a deprecated API. 
+Note: Recompile with -deprecation for details.
+C:\>java TCPserver1 
+Client: Hai Server
+Server:Hai Client 
+Client: How are you 
+Server: Fine
+Client: quit
+Server: quit
 
+**/

@@ -4,4 +4,4 @@ firebase deploy --only hosting
 
 // To write a message
 
-firebase deploy --ony hosting -m "The message content here"
+firebase deploy --only hosting -m "The message content here"
