@@ -60,3 +60,11 @@ class RSA {
             return gcd(z % e, e);
     }
 }
+
+/**
+the value of z = 20
+the value of e = 3
+the value of d = 7
+Encrypted message is : 12.0
+Decrypted message is : 12
+ */

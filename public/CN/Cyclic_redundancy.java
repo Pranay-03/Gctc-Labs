@@ -116,4 +116,33 @@ class crc_gen
     }
 }
 
+/***
+ * Enter number of data bits : 
+4
+Enter data bits : 
+1
+0
+1
+0
+Enter number of bits in divisor : 
+2
+Enter Divisor bits : 
+1
+0
+Data bits are : 1010
+divisor bits are : 10
+Dividend (after appending 0's) are : 10100
+
+CRC code : 
+10100
+Enter CRC code of 5 bits : 
+1
+0
+1
+0
+0
+crc bits are : 10100
+No Error
+THANK YOU.... :)
+ */
 
