@@ -1,4 +1,3 @@
-# Gctc-Labs
 My Documentation and Lab Experiments
 
 # You can view my code at 
